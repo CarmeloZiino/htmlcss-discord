@@ -82,15 +82,19 @@ header>* {
     color: white;
 }
 
-/* Css Main */
-
-main {
-  height: 2000px;
-}
 
 /* Css Sezioni Principali */
+
+.container-main-1,
+.container-main-2,
+.container-main-3,
+.container-main-4
+{
+height: 80%;
+}
+
 .container-main-1 {
-  height: 25%;
+
   display: flex;
   justify-content: center;
   align-items: center;
@@ -98,22 +102,19 @@ main {
 
 .container-main-2 {
   background-color: #f6f6f6;
-  height: 25%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .container-main-3 {
-  height: 25%;
-  display: flex;
+    display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .container-main-4 {
   background-color: #f6f6f6;
-  height: 25%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -121,22 +122,26 @@ main {
 
 /* Css Blocchi Interni */
 .block {
-  height: 400px;
-  width: 100%;
-  display: flex;
+   display: flex;
 }
 
-.block-1,
-.block-2 {
-  height: 80%;
-  width: 30%;
+.block-txt {
+display: flex;
+flex-direction: column;
+gap: 25px;
 }
 
-.block-1 {
-  background-color: rgb(165, 42, 153);
+.block-txt>h2 {
+    font-size: 45pt;
 }
-.block-2 {
-  background-color: rgb(60, 93, 237);
+
+.block-txt>p{
+    font-size: 20pt;
+    line-height: 45px;
+}
+
+.block-img {
+    flex-basis: 70%;
 }
 
 .block-single {

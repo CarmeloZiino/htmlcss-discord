@@ -1,0 +1,171 @@
+* {
+  font-family: "gg_sans", "Noto Sans", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+}
+
+
+/* Css Header */
+
+header {
+  text-align: center;
+  color: white;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+/* Css Contenitori Header */
+.container-nav {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+
+}
+
+.container-header {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  flex-direction: column;
+  gap: 15px;
+  width: 400px;
+}
+
+/* CSS Link Superiori */
+.Link {
+    display: flex;
+    gap: 20px;
+}
+
+.Link >* , .login> *{
+    text-decoration: none;
+    color: white;
+    font-size: 10pt;
+}
+
+
+/* Css Main */
+
+main {
+  height: 2000px;
+}
+
+/* Css Sezioni Principali */
+.container-main-1 {
+  height: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-main-2 {
+  background-color: #F6F6F6;
+  height: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-main-3 {
+  height: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-main-4 {
+  background-color: #F6F6F6;
+  height: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Css Blocchi Interni */
+.block {
+  height: 400px;
+  width: 100%;
+  display: flex;
+}
+
+.block-1,
+.block-2 {
+  height: 80%;
+  width: 30%;
+}
+
+.block-1 {
+  background-color: rgb(165, 42, 153);
+}
+.block-2 {
+  background-color: rgb(60, 93, 237);
+}
+
+.block-single {
+  background-color: rgb(103, 113, 103);
+  height: 80%;
+  width: 60%;
+}
+
+/* CSS Footer */
+
+footer {
+  height: 400px;
+  display: flex;
+  background-color: #23272a;
+  color: white;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+/* Css Blocco Principale */
+.social {
+  display: flex;
+  flex-direction: row;
+  display: flex;
+  gap: 5px;
+}
+
+.first {
+  height: 70%;
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.first > * {
+  width: 20%;
+ 
+}
+
+.link-social,
+.prodotto,
+.compagnia,
+.risorse,
+.norme {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.first-row {
+  color: #587ad6;
+}
+
+/* Css Blocco Secondario */
+.hr {
+  background-color: #3c4561;
+  width: 80%;
+}
+
+.second {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+
+

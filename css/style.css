@@ -189,7 +189,6 @@ border: none;
 /* CSS Footer */
 
 footer {
-  height: 400px;
   display: flex;
   background-color: #23272a;
   color: white;
@@ -201,9 +200,6 @@ footer {
 
 /* Css Blocco Principale */
 
-footer .first {
-flex-basis: calc(100% /5);
-}
 
 .social {
   display: flex;
@@ -213,11 +209,13 @@ flex-basis: calc(100% /5);
 }
 
 .first {
-  width: 100%;
+width: 80%;
+height: auto;
+  padding-top: 15px;
   display: flex;
   flex-direction: row;
   justify-content: center;
-  gap: 20px;
+  gap: 50px;
 }
 
 .language{
@@ -229,13 +227,10 @@ flex-basis: calc(100% /5);
 }
 
 .social>* {
-width: 5%;
+width: 15px;
 height: auto;
 
 }
-
-
-
 
 
 .link-social,
@@ -246,22 +241,36 @@ height: auto;
   display: flex;
   flex-direction: column;
   gap: 10px;
+  flex-basis: calc(100%/5);
 }
 
 .first-row {
   color: #587ad6;
 }
 
+h6{
+    font-size: 12pt;
+}
+
 /* Css Blocco Secondario */
-.hr {
-  background-color: #3c4561;
-  width: 80%;
+hr {
+    width: 80%;
+    border: 1px solid #7189DA;;
+
 }
 
 .second {
   width: 80%;
   display: flex;
   justify-content: space-between;
+  padding-bottom: 15px;
 }
 
-
+.signin{
+font-size: 8pt;
+color: white;
+background-color:#7189DA;
+padding: 10px;
+border-radius: 50px;
+border: none;
+}

@@ -60,7 +60,7 @@ header > * {
 }
 
 .text-header {
-  font-size: 12pt;
+  font-size: 14pt;
 }
 
 .button-1,
@@ -83,14 +83,17 @@ header > * {
   border: none;
 }
 
+
 /* Css Sezioni Principali */
 
 .container-main-1,
 .container-main-2,
 .container-main-3,
 .container-main-4 {
-  padding: 10% 20%;
+padding: 10% 20%;
 }
+
+
 
 .container-main-1 {
   display: flex;

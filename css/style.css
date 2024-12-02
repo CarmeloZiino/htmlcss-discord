@@ -9,12 +9,11 @@ header {
   text-align: center;
   color: white;
   background-image: url(/img-3/jumbo.png);
-  background-repeat: no-repeat;
   background-size: cover;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  padding: 10px;
+  padding-inline: 15%;
 }
 
 header>* {
@@ -25,7 +24,6 @@ header>* {
 .container-nav {
   display: flex;
   justify-content: space-around;
-  width: 100%;
 }
 
 .container-header {
@@ -46,40 +44,42 @@ header>* {
 .login > * {
   text-decoration: none;
   color: white;
-  font-size: 10pt;
+  font-size: 12pt;
 }
 
 .login >* {
     background-color: white;
     color: black;
     padding: 10px;
-    font-size: 10pt;
-    border-radius: 20px;
+    font-size: 12pt;
+    border-radius: 50px;
 }
 
 .title-header {
-  font-size: 25pt;
+  font-size: 30pt;
 }
 
 .text-header {
-    font-size: 10pt;
+    font-size: 12pt;
 }
 
 .button-1, .button-2 {
     display: inline-block;
     padding: 10px;
-    font-size: 10pt;
-    border-radius: 20px;
+    font-size: 12pt;
+    border-radius: 50px;
 }
 
 .button-1 {
     background-color: white;
     color: black;
+    border: none;
 }
 
 .button-2 {
     background-color: #23272A;
     color: white;
+    border: none;
 }
 
 
@@ -90,49 +90,41 @@ header>* {
 .container-main-3,
 .container-main-4
 {
-height: 80%;
+padding: 10% 20%;
 }
 
 .container-main-1 {
-
   display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .container-main-2 {
   background-color: #f6f6f6;
   display: flex;
-  justify-content: center;
-  align-items: center;
+ 
 }
 
 .container-main-3 {
     display: flex;
-  justify-content: center;
-  align-items: center;
+  
 }
 
 .container-main-4 {
   background-color: #f6f6f6;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  flex-direction: column;
 }
 
 /* Css Blocchi Interni */
-.block {
-   display: flex;
-}
 
 .block-txt {
 display: flex;
 flex-direction: column;
 gap: 25px;
+width: 40%;
 }
 
 .block-txt>h2 {
-    font-size: 45pt;
+    font-size: 40pt;
 }
 
 .block-txt>p{
@@ -140,8 +132,9 @@ gap: 25px;
     line-height: 45px;
 }
 
+
 .block-img {
-    flex-basis: 70%;
+
 }
 
 .block-single {
@@ -149,6 +142,49 @@ gap: 25px;
   height: 80%;
   width: 60%;
 }
+
+
+.container-main-4{
+    text-align: center;
+}
+
+
+
+.block-txt-center{
+    display: flex;
+    flex-direction: column;
+    font-size: 15pt;
+    line-height: 25px;
+    gap: 50px;
+
+
+}
+
+.block-txt-center>h2 {
+    font-size: 40pt;
+line-height: 50px;
+}
+
+.block-txt-center>h3 {
+background-image: url(/img-3/stars.svg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+margin-inline: 18%;
+}
+
+div>button{
+margin: 5%;
+font-size: 15pt;
+color: white;
+background-color:#7189DA;
+padding: 15px;
+border-radius: 50px;
+border: none;
+
+}
+
+
 
 /* CSS Footer */
 
@@ -164,6 +200,11 @@ footer {
 }
 
 /* Css Blocco Principale */
+
+footer .first {
+flex-basis: calc(100% /5);
+}
+
 .social {
   display: flex;
   flex-direction: row;
@@ -172,16 +213,30 @@ footer {
 }
 
 .first {
-  height: 70%;
-  width: 80%;
+  width: 100%;
   display: flex;
   flex-direction: row;
+  justify-content: center;
   gap: 20px;
 }
 
-.first > * {
-  width: 20%;
+.language{
+    display: flex;
 }
+.language>img {
+    width: 30px;
+    height: auto;
+}
+
+.social>* {
+width: 5%;
+height: auto;
+
+}
+
+
+
+
 
 .link-social,
 .prodotto,
@@ -208,3 +263,5 @@ footer {
   display: flex;
   justify-content: space-between;
 }
+
+

@@ -16,8 +16,8 @@ header {
   padding-inline: 15%;
 }
 
-header>* {
-    padding: 30px;
+header > * {
+  padding: 30px;
 }
 
 /* Css Contenitori Header */
@@ -47,12 +47,12 @@ header>* {
   font-size: 12pt;
 }
 
-.login >* {
-    background-color: white;
-    color: black;
-    padding: 10px;
-    font-size: 12pt;
-    border-radius: 50px;
+.login > * {
+  background-color: white;
+  color: black;
+  padding: 10px;
+  font-size: 12pt;
+  border-radius: 50px;
 }
 
 .title-header {
@@ -60,37 +60,36 @@ header>* {
 }
 
 .text-header {
-    font-size: 12pt;
+  font-size: 12pt;
 }
 
-.button-1, .button-2 {
-    display: inline-block;
-    padding: 10px;
-    font-size: 12pt;
-    border-radius: 50px;
+.button-1,
+.button-2 {
+  display: inline-block;
+  padding: 10px;
+  font-size: 12pt;
+  border-radius: 50px;
 }
 
 .button-1 {
-    background-color: white;
-    color: black;
-    border: none;
+  background-color: white;
+  color: black;
+  border: none;
 }
 
 .button-2 {
-    background-color: #23272A;
-    color: white;
-    border: none;
+  background-color: #23272a;
+  color: white;
+  border: none;
 }
-
 
 /* Css Sezioni Principali */
 
 .container-main-1,
 .container-main-2,
 .container-main-3,
-.container-main-4
-{
-padding: 10% 20%;
+.container-main-4 {
+  padding: 10% 20%;
 }
 
 .container-main-1 {
@@ -100,12 +99,10 @@ padding: 10% 20%;
 .container-main-2 {
   background-color: #f6f6f6;
   display: flex;
- 
 }
 
 .container-main-3 {
-    display: flex;
-  
+  display: flex;
 }
 
 .container-main-4 {
@@ -117,24 +114,19 @@ padding: 10% 20%;
 /* Css Blocchi Interni */
 
 .block-txt {
-display: flex;
-flex-direction: column;
-gap: 25px;
-width: 40%;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  width: 40%;
 }
 
-.block-txt>h2 {
-    font-size: 40pt;
+.block-txt > h2 {
+  font-size: 40pt;
 }
 
-.block-txt>p{
-    font-size: 20pt;
-    line-height: 45px;
-}
-
-
-.block-img {
-
+.block-txt > p {
+  font-size: 20pt;
+  line-height: 45px;
 }
 
 .block-single {
@@ -143,48 +135,41 @@ width: 40%;
   width: 60%;
 }
 
-
-.container-main-4{
-    text-align: center;
+.container-main-4 {
+  text-align: center;
 }
 
-
-
-.block-txt-center{
-    display: flex;
-    flex-direction: column;
-    font-size: 15pt;
-    line-height: 25px;
-    gap: 50px;
-
-
+.block-txt-center {
+  display: flex;
+  flex-direction: column;
+  font-size: 15pt;
+  line-height: 25px;
+  gap: 50px;
 }
 
-.block-txt-center>h2 {
-    font-size: 40pt;
-line-height: 50px;
+.block-txt-center > h2 {
+  font-size: 40pt;
+  line-height: 50px;
 }
 
-.block-txt-center>h3 {
-background-image: url(/img-3/stars.svg);
-background-repeat: no-repeat;
-background-size: cover;
-background-position: center;
-margin-inline: 18%;
+.block-txt-center > h3 {
+  background-image: url(/img-3/stars.svg);
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: center;
+  height: 50px;
+  align-content: center;
 }
 
-div>button{
-margin: 5%;
-font-size: 15pt;
-color: white;
-background-color:#7189DA;
-padding: 15px;
-border-radius: 50px;
-border: none;
-
+div > button {
+  margin: 5%;
+  font-size: 15pt;
+  color: white;
+  background-color: #7189da;
+  padding: 15px;
+  border-radius: 50px;
+  border: none;
 }
-
-
 
 /* CSS Footer */
 
@@ -200,7 +185,6 @@ footer {
 
 /* Css Blocco Principale */
 
-
 .social {
   display: flex;
   flex-direction: row;
@@ -209,8 +193,8 @@ footer {
 }
 
 .first {
-width: 80%;
-height: auto;
+  width: 80%;
+  height: auto;
   padding-top: 15px;
   display: flex;
   flex-direction: row;
@@ -218,20 +202,19 @@ height: auto;
   gap: 50px;
 }
 
-.language{
-    display: flex;
+.language {
+  display: flex;
+  gap: 10px;
 }
-.language>img {
-    width: 30px;
-    height: auto;
-}
-
-.social>* {
-width: 15px;
-height: auto;
-
+.language > img {
+  width: 30px;
+  height: auto;
 }
 
+.social > * {
+  width: 15px;
+  height: auto;
+}
 
 .link-social,
 .prodotto,
@@ -241,22 +224,21 @@ height: auto;
   display: flex;
   flex-direction: column;
   gap: 10px;
-  flex-basis: calc(100%/5);
+  flex-basis: calc(100% / 5);
 }
 
 .first-row {
   color: #587ad6;
 }
 
-h6{
-    font-size: 12pt;
+h6 {
+  font-size: 12pt;
 }
 
 /* Css Blocco Secondario */
 hr {
-    width: 80%;
-    border: 1px solid #7189DA;;
-
+  width: 80%;
+  border: 1px solid #7189da;
 }
 
 .second {
@@ -266,11 +248,11 @@ hr {
   padding-bottom: 15px;
 }
 
-.signin{
-font-size: 8pt;
-color: white;
-background-color:#7189DA;
-padding: 10px;
-border-radius: 50px;
-border: none;
+.signin {
+  font-size: 8pt;
+  color: white;
+  background-color: #7189da;
+  padding: 10px;
+  border-radius: 50px;
+  border: none;
 }

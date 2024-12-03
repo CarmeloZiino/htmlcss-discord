@@ -8,7 +8,7 @@
 header {
   text-align: center;
   color: white;
-  background-image: url(/img-3/jumbo.png);
+  background-image: url(../img-3/jumbo.png);
   background-size: cover;
   display: flex;
   flex-direction: column;
@@ -89,8 +89,10 @@ header > * {
 .container-main-1,
 .container-main-2,
 .container-main-3,
-.container-main-4 {
-padding: 10% 20%;
+.container-main-4,
+.bd-gray,
+.bd-white {
+padding: 15% 20%;
 }
 
 
@@ -99,9 +101,20 @@ padding: 10% 20%;
   display: flex;
 }
 
+.bd-gray{
+  background-color: #f6f6f6;
+  mask-image: url(../img-3/wave.svg);  ;
+}
+
 .container-main-2 {
   background-color: #f6f6f6;
   display: flex;
+}
+
+
+.bd-white{
+  background-color: white;
+  mask-image: url(../img-3/wave.svg);  ;
 }
 
 .container-main-3 {
@@ -156,7 +169,7 @@ padding: 10% 20%;
 }
 
 .block-txt-center > h3 {
-  background-image: url(/img-3/stars.svg);
+  background-image: url(../img-3/stars.svg);
   background-repeat: no-repeat;
   background-size: auto;
   background-position: center;
@@ -259,3 +272,5 @@ hr {
   border-radius: 50px;
   border: none;
 }
+
+

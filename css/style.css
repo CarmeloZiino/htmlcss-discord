@@ -91,8 +91,8 @@ header > * {
 .container-main-3,
 .container-main-4,
 .bd-gray,
-.bd-white {
-padding: 15% 20%;
+.bd-gray-2 {
+padding: 10% 20%;
 }
 
 
@@ -103,19 +103,23 @@ padding: 15% 20%;
 
 .bd-gray{
   background-color: #f6f6f6;
-  mask-image: url(../img-3/wave.svg);  ;
+  mask-image: url(../img-3/wave.svg);
 }
+
+
+.bd-gray-2{
+  background-color: #f6f6f6;
+  mask-image: url(../img-3/wave.svg);
+  mask-position: bottom;
+  transform: rotate(180deg);
+}
+
 
 .container-main-2 {
   background-color: #f6f6f6;
   display: flex;
 }
 
-
-.bd-white{
-  background-color: white;
-  mask-image: url(../img-3/wave.svg);  ;
-}
 
 .container-main-3 {
   display: flex;

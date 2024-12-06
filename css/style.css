@@ -8,7 +8,7 @@
 header {
   text-align: center;
   color: white;
-  background-image: url(../img-3/jumbo.png);
+  background-image: url(/img-3/jumbo.png);
   background-size: cover;
   display: flex;
   flex-direction: column;
@@ -83,7 +83,6 @@ header > * {
   border: none;
 }
 
-
 /* Css Sezioni Principali */
 
 .container-main-1,
@@ -92,34 +91,29 @@ header > * {
 .container-main-4,
 .bd-gray,
 .bd-gray-2 {
-padding: 10% 20%;
+  padding: 10% 20%;
 }
-
-
 
 .container-main-1 {
   display: flex;
 }
 
-.bd-gray{
+.bd-gray {
   background-color: #f6f6f6;
-  mask-image: url(../img-3/wave.svg);
+  mask-image: url(/img-3/wave.svg);
 }
 
-
-.bd-gray-2{
+.bd-gray-2 {
   background-color: #f6f6f6;
-  mask-image: url(../img-3/wave.svg);
+  mask-image: url(/img-3/wave.svg);
   mask-position: bottom;
   transform: rotate(180deg);
 }
-
 
 .container-main-2 {
   background-color: #f6f6f6;
   display: flex;
 }
-
 
 .container-main-3 {
   display: flex;
@@ -173,7 +167,7 @@ padding: 10% 20%;
 }
 
 .block-txt-center > h3 {
-  background-image: url(../img-3/stars.svg);
+  background-image: url(/img-3/stars.svg);
   background-repeat: no-repeat;
   background-size: auto;
   background-position: center;
@@ -276,5 +270,3 @@ hr {
   border-radius: 50px;
   border: none;
 }
-
-
